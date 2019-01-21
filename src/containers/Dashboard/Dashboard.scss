@@ -1,0 +1,91 @@
+.dashboardRow{
+    margin-top: 13px;
+}
+.dashboard-inner-tab {
+    display: inline-flex;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.dashboard-inner-tab-active {
+    color: black;
+}
+
+.hideVisibility {
+    visibility: hidden;
+}
+.carouselMainDiv {
+    height: 100%;
+    border: 1px solid #ddd;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    width: 100%;
+    div:first-child {
+        height: 100%;
+        overflow: hidden;
+   }
+}
+.dashboardCarousel {
+    padding-bottom: 7px;
+    margin-bottom: 7px;
+}
+.carousel.item .active {
+    height: 100%;
+}
+.item {
+    height: 100% !important;
+    overflow: hidden !important;
+    border-radius: 5px;
+}
+@media (max-width: 767px) {
+    .dashboardCarousel {
+        height: 530px;
+   }
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    @media (max-width:767px){
+        .dashboardRow{
+           display:block;
+       }
+        .dashboardCarousel {
+            height: 530px;
+       }
+   }
+}
+
+.dashboardContainer{
+  width:100% !important;
+  padding:10px 20px;
+  overflow: hidden;
+}
+
+.dashboardIcons-svg{
+    height: 30px;
+    max-width:60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+.header {
+    width: 100%;
+    border: solid 1px black;
+    height: 63px;
+    text-align: center;
+    background-color: gray;
+    color: white;
+    padding: 18px;
+}
+
+.divide {
+    border: solid 1px gray;
+    margin: 10px;
+}
+
+.leftsidemenu {
+    background-color: gray;
+    border: solid 1px gray;
+    margin: 10px;
+}

@@ -1,0 +1,21 @@
+{
+  "cache": true,
+  "automock": false,
+  "verbose": true,
+  "roots": [
+    "<rootDir>/tests"
+  ],
+  "testPathIgnorePatterns": [
+      "<rootDir>/(build|docs|node_modules)/"
+  ],
+  "moduleNameMapper": {
+    "\\.(jpe?g|png|svg|s?css)$": "<rootDir>/tests/ui/mocks/file.mock.js"
+  },
+  "transformIgnorePatterns": [
+    
+  ],
+  "globals": {
+    "__DEV__": true,
+    "__TEST__": true
+  }
+}

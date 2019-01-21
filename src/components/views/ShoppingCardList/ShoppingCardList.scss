@@ -1,0 +1,12 @@
+.shoppingCardList {
+.tableStyle {
+    table-layout: fixed;
+}
+
+.cardtitle {
+    width: 50%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+}
